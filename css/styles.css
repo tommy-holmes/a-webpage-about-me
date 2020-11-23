@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: #495464;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-family: 'Roboto', sans-serif;
+  color: #bbbfca;
+}
+
+a {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.hello {
+  color: #f4f4f2;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.topContainer {
+  background-color: #495464;
+  padding: 50px;
+}
+
+.wolf-png {
+  width: 200px;
+  height: 250px;
+}
+
+.bigName {
+  color: #f4f4f2;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3em;
+  line-height: 2;
+}
+
+.bigSub {
+  color: #f4f4f2;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+}
+
+.skill-image {
+  height: 300px;
+  width: 300px;
+}
+
+.profile {
+  background-color: #bbbfca;
+  padding-bottom: 15px;
+}
+
+.middle-container {
+  background-color: #f4f4f2;
+}
+
+.contact-me {
+  background-color: #495464;
+  padding-top: 10px;
+}
+
+.contact-p, .contact-h2, .contact-h3 {
+  color: #f4f4f2;
+}
+
+.bottom-container {
+  background-color: #495464;
+  padding-bottom: 10px;
+}
+
+.btn, .footer-link {
+  color: #bbbfca;
+}
