@@ -42,6 +42,11 @@ a {
   height: 250px;
 }
 
+.demo-image {
+  width: 75%;
+  height: 50%;
+}
+
 .bigName {
   color: #f4f4f2;
   font-family: 'Roboto Mono', monospace;
