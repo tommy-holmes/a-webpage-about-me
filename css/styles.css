@@ -126,7 +126,9 @@ iframe {
 .hobbie-image {
   height: 75px;
   width: 75px;
-  margin: 15px auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 150px;
 }
 
 .contact-me {
