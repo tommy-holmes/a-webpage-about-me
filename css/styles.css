@@ -16,7 +16,7 @@ h1, h2, h3 {
   padding-left: 150px;
   padding-right: 150px;
   font-family: 'Roboto', sans-serif;
-  color: #bbbfca;
+  color: #6F89B0;
 }
 
 h4 {
@@ -26,6 +26,14 @@ h4 {
 
 a {
   font-family: 'Roboto Mono', monospace;
+}
+
+hr {
+  border-style: dotted none none;
+  color: #6F89B0;
+  border-width: 8px;
+  width: 10%;
+  margin-top: 30px;
 }
 
 .hello {
@@ -81,7 +89,7 @@ a {
 
 .profile {
   background-color: #6F89B0;
-  padding-bottom: 15px;
+  padding: 50px;
 }
 
 .middle-container {
