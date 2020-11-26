@@ -137,10 +137,11 @@ iframe {
 }
 
 .skill-row-two {
-  /*margin: 60px auto;*/
+  margin: auto;
   width: 85%;
   text-align: left;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 
 .middle-container {
