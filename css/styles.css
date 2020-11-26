@@ -43,7 +43,7 @@ iframe {
 }
 
 .parallax {
-  background-image: url("/Users/tomholmes/Documents/Web Development/Udemy/Angela/a-webpage-about-me/images/DJ App Demo.001.jpeg");
+  background-image: url("/Users/tomholmes/Documents/Web Development/Udemy/Angela/a-webpage-about-me/images/Space.jpg");
 
   min-height: 500px;
   background-attachment: fixed;
@@ -63,7 +63,7 @@ iframe {
 
 .topContainer {
   padding-bottom: 10%;
-  background: rgba(72.93, 83.895, 99.96, .7);
+  background: rgba(72.93, 83.895, 99.96, .5);
 }
 
 
