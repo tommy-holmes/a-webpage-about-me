@@ -45,7 +45,7 @@ iframe {
 }
 
 .parallax {
-  background-image: url("/Users/tomholmes/Documents/Web Development/Udemy/Angela/a-webpage-about-me/images/Space.jpg");
+  background-image: url("../images/Space.jpg");
 
   min-height: 500px;
   background-attachment: fixed;
