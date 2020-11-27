@@ -29,7 +29,7 @@ h4 {
 }
 
 a {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Castoro', serif;
 }
 
 hr {
@@ -74,7 +74,7 @@ iframe {
 }
 
 .topContainer {
-  height: 100vh;
+  min-height: 100vh;
   background: rgba(72.93, 83.895, 99.96, .5);
 }
 
@@ -91,7 +91,8 @@ iframe {
 }
 
 .demo-image {
-  width: 90%;
+  width: 75%;
+  margin: 0 150px;
 }
 
 .bigName {
