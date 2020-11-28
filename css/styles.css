@@ -6,7 +6,6 @@ body {
 p {
   padding-left: 150px;
   padding-right: 150px;
-  padding-bottom: 5px;
   font-family: 'Roboto', sans-serif;
   color: #495464;
   line-height: 1.5;
@@ -85,8 +84,12 @@ iframe {
 }
 
 .rocket-png {
-  width: 300px;
-  height: 300px;
+  width: 40vh;
+  margin-top: 10vh;
+}
+
+.down-arrow-gif {
+  width: 10vh;
   margin-top: 15vh;
 }
 
@@ -100,16 +103,19 @@ iframe {
   font-family: 'Roboto Mono', monospace;
   font-size: 3em;
   line-height: 2;
+  margin: 3vh 0;
 }
 
 .bigSub {
   color: #f4f4f2;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.5em;
+  margin: 0;
 }
 
 .bio {
   color: #f4f4f2;
+  max-width: 1000px;
 }
 
 .skill-image-one {
