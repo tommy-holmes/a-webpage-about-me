@@ -119,13 +119,13 @@ iframe {
 }
 
 .skill-image-one {
-  width: 25%;
+  width: 17.5%;
   float: left;
 
 }
 
 .skill-image-two {
-  width: 25%;
+  width: 17.5%;
   float: right;
 }
 
@@ -153,6 +153,10 @@ iframe {
 
 .middle-container {
   background-color: #f4f4f2;
+}
+
+.youtube_video {
+  margin-left: 135px;
 }
 
 .hobbie-image {
