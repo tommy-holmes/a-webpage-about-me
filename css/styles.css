@@ -19,11 +19,14 @@ h3 {
   margin: 0;
   font-size: 1.5em;
   font-family: 'Kanit', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
   color: #6F89B0;
 }
 
 h1, h2 {
   font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 20px;
@@ -36,7 +39,9 @@ h4 {
   padding-left: 150px;
   padding-right: 150px;
   font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
   font-size: 1.1em;
+  text-align: center;
   color: #495464;
 }
 
@@ -175,7 +180,7 @@ iframe {
 }
 
 .youtube_video {
-  margin-left: 135px;
+  margin-left: 150px;
 }
 
 .hobbie-image {
@@ -192,7 +197,14 @@ iframe {
   background: rgba(72.93, 83.895, 99.96, .5);
 }
 
-.contact-p, .contact-h2, .contact-h3 {
+.contact-h2, .contact-h3 {
+  color: #f4f4f2;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-p {
   color: #f4f4f2;
   margin-left: auto;
   margin-right: auto;
