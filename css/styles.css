@@ -13,8 +13,6 @@ p {
 }
 
 h3 {
-  padding-left: 150px;
-  padding-right: 150px;
   padding-top: 20px;
   margin: 0;
   font-size: 1.5em;
@@ -27,9 +25,8 @@ h3 {
 h1, h2 {
   font-family: 'Kanit', sans-serif;
   letter-spacing: 1px;
-  padding-left: 150px;
-  padding-right: 150px;
   padding-top: 20px;
+  text-align: center;
   margin: 0;
   font-size: 2em;
   color: #6F89B0;
@@ -145,7 +142,6 @@ iframe {
 .skill-image-one {
   width: 17.5%;
   float: left;
-
 }
 
 .skill-image-two {
@@ -156,15 +152,14 @@ iframe {
 .skill-row-one {
   margin: 60px auto;
   width: 85%;
-  text-align: left;
 }
 
 .skill-text-one {
-  padding-left: 200px;
+  padding-left: 15vw;
 }
 
 .skill-text-two {
-  padding-right: 200px;
+  padding-right: 15vw;
 }
 
 .skill-row-two {
@@ -180,7 +175,7 @@ iframe {
 }
 
 .youtube_video {
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 .hobbie-image {
