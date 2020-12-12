@@ -114,6 +114,7 @@ iframe {
 .bigName {
   color: #f4f4f2;
   font-family: 'Kanit', monospace;
+  letter-spacing: 4px;
   font-size: 3em;
   line-height: 2;
   margin: 3vh 0;
