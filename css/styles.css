@@ -182,6 +182,7 @@ hr {
 .year-abroad-info {
   min-height: 100vh;
   background: rgba(72.93, 83.895, 99.96, .3);
+  padding-bottom: 10px;
 }
 
 .year-abroad-title {
