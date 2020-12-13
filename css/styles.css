@@ -192,8 +192,37 @@ hr {
   padding-left: 40vw;
 }
 
-.year-abroad_text {
+.year-abroad-text {
   color: #f4f4f2;
+  text-align: justify;
+}
+
+.china-bg {
+  background-image: url("../images/China.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.china-info {
+  min-height: 100vh;
+  background-color: #6F89B0;
+  background-color: rgba(111, 137, 176, 0.5);
+}
+
+.china-title {
+  color: #f4f4f2;
+}
+
+.china-body {
+  padding-right: 45vw;
+}
+
+.china-text {
+  color: #f4f4f2;
+  margin-left: 75px;
   text-align: justify;
 }
 
