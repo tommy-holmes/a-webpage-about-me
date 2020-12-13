@@ -136,13 +136,15 @@ hr {
 }
 
 .skill-image-one {
-  width: 17.5%;
+  width: 20%;
   float: left;
+  opacity: .6;
 }
 
 .skill-image-two {
-  width: 17.5%;
+  width: 20%;
   float: right;
+  opacity: .6;
 }
 
 .skill-row-one {
@@ -151,11 +153,11 @@ hr {
 }
 
 .skill-text-one {
-  padding-left: 15vw;
+  padding-left: 17.5vw;
 }
 
 .skill-text-two {
-  padding-right: 15vw;
+  padding-right: 17.5vw;
 }
 
 .skill-row-two {
