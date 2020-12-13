@@ -81,6 +81,7 @@ hr {
 .profile-picture {
   border-radius: 50%;
   padding: 25px;
+  margin-top: 5vh;
 }
 
 .topContainer {
@@ -92,6 +93,7 @@ hr {
   background-color: #6F89B0;
   background-color: rgba(111, 137, 176, 0.5);
   padding: 50px;
+  min-height: 90vh;
 }
 
 .rocket-png {
@@ -166,6 +168,33 @@ hr {
   text-align: left;
   padding-bottom: 10px;
   padding-top: 30px;
+}
+
+.year-abroad-bg {
+  background-image: url("../images/Singapore.jpg");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.year-abroad-info {
+  min-height: 100vh;
+  background: rgba(72.93, 83.895, 99.96, .3);
+}
+
+.year-abroad-title {
+  color: #f4f4f2;
+}
+
+.year-abroad-body {
+  padding-left: 40vw;
+}
+
+.year-abroad_text {
+  color: #f4f4f2;
+  text-align: justify;
 }
 
 .middle-container {
