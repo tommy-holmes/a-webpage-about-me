@@ -131,6 +131,7 @@ hr {
 .bio {
   color: #f4f4f2;
   max-width: 1000px;
+  margin: 20px auto;
 }
 
 .body_text {
