@@ -1,3 +1,4 @@
+/* HTML Elements */
 body {
   margin: 0;
   text-align: center;
@@ -17,7 +18,7 @@ h3 {
   font-size: 1.5em;
   width: 75%;
   font-family: 'Kanit', sans-serif;
-  text-align: center;
+  text-align: left;
   letter-spacing: 1px;
   color: #6F89B0;
 }
@@ -38,7 +39,7 @@ h4 {
   font-family: 'Kanit', sans-serif;
   letter-spacing: 1px;
   font-size: 1.1em;
-  text-align: center;
+  text-align: left;
   color: #495464;
 }
 
@@ -54,6 +55,7 @@ hr {
   margin-top: 30px;
 }
 
+/* Top Section */
 .parallax-space {
   background-image: url("../images/Space2.jpg");
 
@@ -74,26 +76,9 @@ hr {
   background-size: cover;
 }
 
-.hello {
-  color: #f4f4f2;
-}
-
-.profile-picture {
-  border-radius: 50%;
-  padding: 25px;
-  margin-top: 5vh;
-}
-
 .topContainer {
   min-height: 100vh;
   background: rgba(72.93, 83.895, 99.96, .5);
-}
-
-.profile {
-  background-color: #6F89B0;
-  background-color: rgba(111, 137, 176, 0.5);
-  padding: 50px;
-  min-height: 90vh;
 }
 
 .rocket-png {
@@ -106,9 +91,22 @@ hr {
   margin-top: 15vh;
 }
 
-.demo-image {
-  width: 75%;
-  margin: 0 150px;
+/* Bio Section */
+.hello {
+  color: #f4f4f2;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  padding: 25px;
+  margin-top: 5vh;
+}
+
+.profile {
+  background-color: #6F89B0;
+  background-color: rgba(111, 137, 176, 0.5);
+  padding: 50px;
+  min-height: 90vh;
 }
 
 .bigName {
@@ -132,6 +130,16 @@ hr {
   color: #f4f4f2;
   max-width: 1000px;
   margin: 20px auto;
+}
+
+/* Tech Skills Section */
+.demo-image {
+  width: 75%;
+  margin: 0 150px;
+}
+
+.middle-container {
+  background-color: #f4f4f2;
 }
 
 .body_text {
@@ -171,9 +179,9 @@ hr {
   padding-top: 30px;
 }
 
+/* Study Abroad Section */
 .year-abroad-bg {
   background-image: url("../images/Singapore.jpg");
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -199,6 +207,7 @@ hr {
   text-align: justify;
 }
 
+/* China School Section */
 .china-bg {
   background-image: url("../images/China.jpg");
 
@@ -228,10 +237,7 @@ hr {
   text-align: justify;
 }
 
-.middle-container {
-  background-color: #f4f4f2;
-}
-
+/* Extracurricular and Hobbies Section */
 .youtube_video {
   margin-left: 4vw;
 }
@@ -244,6 +250,11 @@ hr {
   margin-left: 150px;
 }
 
+.link {
+  text-align: left;
+}
+
+/* Contact Me Footer */
 .contact-me {
   background-color: #495464;
   padding-top: 10px;
