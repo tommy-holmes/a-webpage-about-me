@@ -2,6 +2,7 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Kanit', sans-serif;
 }
 
 p {
@@ -17,14 +18,12 @@ h3 {
   margin: 20px 150px;
   font-size: 1.5em;
   width: 75%;
-  font-family: 'Kanit', sans-serif;
   text-align: left;
   letter-spacing: 1px;
   color: #6F89B0;
 }
 
 h1, h2 {
-  font-family: 'Kanit', sans-serif;
   letter-spacing: 1px;
   padding-top: 20px;
   text-align: center;
@@ -36,15 +35,10 @@ h1, h2 {
 h4 {
   margin: 20px 150px;
   width: 75%;
-  font-family: 'Kanit', sans-serif;
   letter-spacing: 1px;
   font-size: 1.1em;
   text-align: left;
   color: #495464;
-}
-
-a {
-  font-family: 'Castoro', serif;
 }
 
 hr {
@@ -78,7 +72,7 @@ hr {
 
 .topContainer {
   min-height: 100vh;
-  background: rgba(72.93, 83.895, 99.96, .5);
+  background: rgba(72.93, 83.895, 99.96, .3);
 }
 
 .rocket-png {
@@ -190,7 +184,7 @@ hr {
 
 .year-abroad-info {
   min-height: 100vh;
-  background: rgba(72.93, 83.895, 99.96, .3);
+  background: rgba(72.93, 83.895, 99.96, .1);
   padding-bottom: 10px;
 }
 
@@ -220,7 +214,7 @@ hr {
 .china-info {
   min-height: 100vh;
   background-color: #6F89B0;
-  background-color: rgba(111, 137, 176, 0.5);
+  background-color: rgba(111, 137, 176, 0.25);
 }
 
 .china-title {
@@ -255,10 +249,8 @@ hr {
 }
 
 /* Contact Me Footer */
-.contact-me {
-  background-color: #495464;
+.contact-me-headings {
   padding-top: 10px;
-  background: rgba(72.93, 83.895, 99.96, .5);
 }
 
 .contact-h2, .contact-h3 {
@@ -266,7 +258,6 @@ hr {
   letter-spacing: 1px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 .contact-p {
@@ -275,12 +266,12 @@ hr {
   margin-right: auto;
 }
 
-.bottom-container {
-  background-color: #495464;
-  background: rgba(72.93, 83.895, 99.96, .5);
+.contact-links-section {
   padding-bottom: 10px;
 }
 
 .btn, .footer-link {
   color: #bbbfca;
+  padding: 10px;
+  font-size: 1.5rem;
 }
