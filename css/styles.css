@@ -98,7 +98,7 @@ hr {
 
 .profile {
   background-color: #6F89B0;
-  background-color: rgba(111, 137, 176, 0.5);
+  background-color: rgba(111, 137, 176, 0.25);
   padding: 50px;
   min-height: 90vh;
 }
