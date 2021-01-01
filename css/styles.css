@@ -197,6 +197,7 @@ hr {
 .year-abroad-text {
   color: #f4f4f2;
   text-align: justify;
+  margin: 10px 10vw auto;
 }
 
 /* China School Section */
@@ -226,7 +227,7 @@ hr {
 
 .china-text {
   color: #f4f4f2;
-  margin-left: 75px;
+  margin: 10px auto;
   text-align: justify;
 }
 
@@ -264,7 +265,7 @@ hr {
 
 .contact-p {
   color: #f4f4f2;
-  margin: 15px auto; 
+  margin: 15px auto;
 }
 
 .contact-links-section {
