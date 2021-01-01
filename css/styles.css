@@ -278,8 +278,18 @@ hr {
 }
 
 /* Mobile Frendly CSS */
+/* COMMIT: */
 @media only screen and (max-device-width: 1366px) {
+/* TEST: */
 /* @media (max-width: 550px) { */
+  .bigName {
+    font-size: 5rem;
+  }
+
+  .bigSub {
+    font-size: 3rem;
+  }
+
   .demo-image, .youtube_video {
     width: 80%;
     margin: 10px 0;
@@ -316,9 +326,10 @@ hr {
     padding: 0 0 10px;
   }
 
-  .china-text {
+  .china-text, .year-abroad-text {
     margin-left: 10%;
     margin-right: -15%;
     padding: 0 0 10px;
+    width: 80%;
   }
 }
