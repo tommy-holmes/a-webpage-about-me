@@ -278,7 +278,7 @@ hr {
 }
 
 /* Mobile Frendly CSS */
-@media only screen and (max-device-width: 550px) {
+@media only screen and (max-device-width: 1366px) {
 /* @media (max-width: 550px) { */
   .demo-image, .youtube_video {
     width: 80%;
@@ -313,7 +313,7 @@ hr {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
-    padding: 0;
+    padding: 0 0 10px;
   }
 
   .china-text {
