@@ -52,7 +52,6 @@ hr {
 /* Top Section */
 .parallax-space {
   background-image: url("../images/Space2.jpg");
-
   min-height: 90px;
   background-attachment: fixed;
   background-position: center;
@@ -62,7 +61,6 @@ hr {
 
 .parallax-profile {
   background-image: url("../images/Biking.jpg");
-
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -256,6 +254,7 @@ hr {
 .contact-h2, .contact-h3 {
   color: #f4f4f2;
   letter-spacing: 1px;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
