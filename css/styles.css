@@ -311,7 +311,7 @@ hr {
   .bio {
     width: 80%;
     font-size: 3rem;
-    text-align: justify;
+    text-align: left;
   }
 
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
