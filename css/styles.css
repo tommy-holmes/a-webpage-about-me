@@ -280,18 +280,22 @@ hr {
 /* Moblie Frendly CSS */
 @media only screen and (max-device-width: 1366px) {
   body {
-    font-size: 2rem;
+    font-size: 5rem;
   }
 
   h1, h2, h3, h4 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
     background-attachment: scroll;
+  }
+
+  .skill-image-one, .skill-image-two {
+    float: none;
   }
 }
