@@ -286,8 +286,12 @@ hr {
     font-size: 5rem;
   }
 
-  .bigSub, .hello {
+  .bigSub {
     font-size: 3rem;
+  }
+
+  .hello {
+    font-size: 5rem;
   }
 
   .demo-image, .youtube_video {
@@ -307,6 +311,7 @@ hr {
   .bio {
     width: 80%;
     font-size: 3rem;
+    text-align: justify;
   }
 
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
