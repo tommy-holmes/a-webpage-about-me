@@ -291,12 +291,17 @@ hr {
     font-size: 4rem;
   }
 
+  .bigSub {
+    margin: auto 5vw;
+  }
+
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
     background-attachment: scroll;
   }
 
   .skill-image-one, .skill-image-two {
     float: none;
+    width: 50%;
   }
 
   .skill-text-one, .skill-text-two {
