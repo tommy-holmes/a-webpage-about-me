@@ -58,15 +58,6 @@ hr {
   background-size: cover;
 }
 
-.parallax-profile {
-  background-image: url("../images/Biking.jpg");
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .topContainer {
   min-height: 100vh;
   background: rgba(72.93, 83.895, 99.96, .3);
@@ -83,6 +74,15 @@ hr {
 }
 
 /* Bio Section */
+.parallax-profile {
+  background-image: url("../images/Biking.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hello {
   color: #f4f4f2;
 }
@@ -203,7 +203,6 @@ hr {
 /* China School Section */
 .china-bg {
   background-image: url("../images/China.jpg");
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -279,7 +278,7 @@ hr {
 }
 
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
     background-attachment: scroll;
   }
 }
