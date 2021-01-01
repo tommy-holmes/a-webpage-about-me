@@ -295,6 +295,10 @@ hr {
     margin: auto 5vw;
   }
 
+  .body_text {
+    margin: auto 5vw;
+  }
+
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
     background-attachment: scroll;
   }
