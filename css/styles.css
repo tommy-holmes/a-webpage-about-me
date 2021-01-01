@@ -277,38 +277,39 @@ hr {
   font-size: 1.5rem;
 }
 
-/* Moblie Frendly CSS */
-@media only screen and (max-device-width: 1366px) {
-  body {
-    font-size: 4rem;
-  }
-
-  h1, h2, h3, h4 {
-    font-size: 4rem;
-  }
-
-  p {
-    font-size: 4rem;
-  }
-
-  .bigSub {
-    margin: auto 5vw;
-  }
-
-  .body_text {
-    margin: auto 5vw;
+/* Mobile Frendly CSS */
+@media (max-width: 550px) {
+  .demo-image {
+    width: 75%;
+    margin: 0;
+    margin-left: 10%;
   }
 
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
     background-attachment: scroll;
   }
 
-  .skill-image-one, .skill-image-two {
+  .skill-image-one {
     float: none;
     width: 50%;
   }
 
-  .skill-text-one, .skill-text-two {
-    margin: auto 10vw;
+  .skill-image-two {
+    float: none;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .skill-text-one, .skill-text-two, .skill-row-one, .skill-row-two, .year-abroad-body, .china-body {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .china-text {
+    margin-left: 10%;
+    margin-right: -15%;
+    padding: 0 0 10px;
   }
 }
