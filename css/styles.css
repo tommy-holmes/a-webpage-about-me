@@ -6,8 +6,7 @@ body {
 }
 
 p {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: auto 10vw;
   font-family: 'Roboto', sans-serif;
   color: #495464;
   line-height: 1.5;
@@ -15,7 +14,7 @@ p {
 }
 
 h3 {
-  margin: 20px 150px;
+  margin: 20px 10vw;
   font-size: 1.5em;
   width: 75%;
   text-align: left;
@@ -33,7 +32,7 @@ h1, h2 {
 }
 
 h4 {
-  margin: 20px 150px;
+  margin: 20px 10vw;
   width: 75%;
   letter-spacing: 1px;
   font-size: 1.1em;
@@ -127,7 +126,7 @@ hr {
 /* Tech Skills Section */
 .demo-image {
   width: 75%;
-  margin: 0 150px;
+  margin: 10px 10vw;
 }
 
 .middle-container {
@@ -151,7 +150,7 @@ hr {
 }
 
 .skill-row-one {
-  margin: 60px auto;
+  margin: 25px auto;
   width: 85%;
 }
 
@@ -164,10 +163,10 @@ hr {
 }
 
 .skill-row-two {
-  margin: auto;
+  margin: 25px auto 0;
   width: 85%;
   text-align: left;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   padding-top: 30px;
 }
 
@@ -192,6 +191,7 @@ hr {
 
 .year-abroad-body {
   padding-left: 40vw;
+  padding-top: 15px;
 }
 
 .year-abroad-text {
@@ -221,6 +221,7 @@ hr {
 
 .china-body {
   padding-right: 45vw;
+  padding-top: 15px;
 }
 
 .china-text {
@@ -232,6 +233,7 @@ hr {
 /* Extracurricular and Hobbies Section */
 .youtube_video {
   margin-left: 4vw;
+  margin-top: 10px;
 }
 
 .hobbie-image {
@@ -244,6 +246,7 @@ hr {
 
 .link {
   text-align: left;
+  margin: 10px 10vw;
 }
 
 /* Contact Me Footer */
@@ -261,16 +264,21 @@ hr {
 
 .contact-p {
   color: #f4f4f2;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 15px auto; 
 }
 
 .contact-links-section {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .btn, .footer-link {
   color: #bbbfca;
   padding: 10px;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
