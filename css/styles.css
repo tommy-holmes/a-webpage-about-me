@@ -133,7 +133,7 @@ hr {
   background-color: #f4f4f2;
 }
 
-.body_text {
+.body-text {
   text-align: justify;
 }
 
@@ -278,11 +278,20 @@ hr {
 }
 
 /* Mobile Frendly CSS */
-@media only screen and (max-device-width: 1366px) {
-  .demo-image {
+@media only screen and (max-device-width: 550px) {
+/* @media (max-width: 550px) { */
+  .demo-image, .youtube_video {
     width: 80%;
-    margin: 0;
+    margin: 10px 0;
     margin-left: 0;
+  }
+
+  .colab, .hobbie-image {
+    margin-left: 10%;
+  }
+
+  .body-text, .bio {
+    width: 80%;
   }
 
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
@@ -291,13 +300,13 @@ hr {
 
   .skill-image-one {
     float: none;
-    width: 50%;
+    width: 30%;
   }
 
   .skill-image-two {
     float: none;
-    width: 50%;
-    margin-left: 25%;
+    width: 40%;
+    margin-left: 30%;
   }
 
   .skill-text-one, .skill-text-two, .skill-row-one, .skill-row-two, .year-abroad-body, .china-body {
