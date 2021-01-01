@@ -300,9 +300,13 @@ hr {
     margin-left: 10%;
   }
 
-  .body-text, .bio {
+  .body-text {
     width: 80%;
-    font-size: 2rem;
+  }
+
+  .bio {
+    width: 80%;
+    font-size: 3rem;
   }
 
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
