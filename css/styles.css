@@ -286,7 +286,7 @@ hr {
     font-size: 5rem;
   }
 
-  .bigSub {
+  .bigSub, .hello {
     font-size: 3rem;
   }
 
@@ -302,6 +302,7 @@ hr {
 
   .body-text, .bio {
     width: 80%;
+    font-size: 2rem;
   }
 
   .parallax-space, .parallax-profile, .year-abroad-bg, .china-bg {
