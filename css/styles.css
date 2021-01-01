@@ -278,7 +278,7 @@ hr {
 }
 
 /* Mobile Frendly CSS */
-@media (max-width: 550px) {
+@media screen and (max-device-width: 550px) {
   .demo-image {
     width: 75%;
     margin: 0;
