@@ -280,9 +280,8 @@ hr {
 /* Mobile Frendly CSS */
 /* COMMIT: */
 @media only screen and (max-device-width: 1366px) {
-
-  /* TEST: */
-  /* @media (max-width: 550px) { */
+/* TEST: */
+/* @media (max-width: 550px) { */
   .bigName {
     font-size: 5rem;
   }
