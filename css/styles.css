@@ -73,6 +73,23 @@ hr {
   margin-top: 15vh;
 }
 
+.bigName {
+  color: #f4f4f2;
+  font-family: 'Kanit', monospace;
+  letter-spacing: 4px;
+  font-size: 3em;
+  line-height: 2;
+  margin: 3vh 0;
+}
+
+.bigSub {
+  color: #f4f4f2;
+  font-family: 'Kanit', monospace;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
 /* Bio Section */
 .parallax-profile {
   background-image: url("../images/Biking.jpg");
@@ -98,23 +115,6 @@ hr {
   background-color: rgba(111, 137, 176, 0.25);
   padding: 50px;
   min-height: 90vh;
-}
-
-.bigName {
-  color: #f4f4f2;
-  font-family: 'Kanit', monospace;
-  letter-spacing: 4px;
-  font-size: 3em;
-  line-height: 2;
-  margin: 3vh 0;
-}
-
-.bigSub {
-  color: #f4f4f2;
-  font-family: 'Kanit', monospace;
-  letter-spacing: 2px;
-  font-size: 1.5em;
-  margin: 0 auto;
 }
 
 .bio {
